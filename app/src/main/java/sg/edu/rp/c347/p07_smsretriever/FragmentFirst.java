@@ -59,7 +59,7 @@ public class FragmentFirst extends Fragment {
 
 
                 // Create all messages URI
-                Uri uri = Uri.parse("content://sms");
+                Uri uri = Uri.parse("content://sms/inbox");
                 // The columns we want
                 //  date is when the message took place
                 //  address is the number of the other party
